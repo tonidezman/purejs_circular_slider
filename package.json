@@ -1,0 +1,24 @@
+{
+  "name": "purejs_circular_slider",
+  "version": "1.0.0",
+  "description": "Circular Slider written in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonidezman/purejs_circular_slider.git"
+  },
+  "keywords": [
+    "circular",
+    "range",
+    "slider"
+  ],
+  "author": "Toni Dezman <toni.dezman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonidezman/purejs_circular_slider/issues"
+  },
+  "homepage": "https://github.com/tonidezman/purejs_circular_slider#readme"
+}
