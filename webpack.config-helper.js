@@ -12,7 +12,7 @@ module.exports = (options) => {
   let webpackConfig = {
     devtool: options.devtool,
     entry: [
-      './src/scripts/index'
+      './src/index'
     ],
     output: {
       path: dest,
@@ -51,7 +51,7 @@ module.exports = (options) => {
     };
 
   if (options.isProduction) {
-    webpackConfig.entry = ['./src/scripts/index'];
+    webpackConfig.entry = ['./src/index'];
 
     webpackConfig.plugins.push(
       new Webpack.optimize.UglifyJsPlugin({
