@@ -1,0 +1,15 @@
+.container {
+  background-color: gainsboro;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labels {
+  border: 5px solid gray;
+  flex: 1 1 200px;
+}
+
+.sliders {
+  border: 5px solid gray;
+  flex: 5 1 auto;
+}
